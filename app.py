@@ -35,7 +35,7 @@ data_input = pd.DataFrame([{
     "yr_built": yr_built,
     "yr_renovated": yr_renovated,
     "sqft_lot": sqft_lot,
-    "zipcode": zipcode,
+    #"zipcode": zipcode,
     "view": view,
 }])
 
