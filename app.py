@@ -20,7 +20,7 @@ condition     = st.number_input("Kondisi (1–5)",                 min_value=1, 
 yr_built      = st.number_input("Tahun bangun (yr_built)",       min_value=1900,max_value=2015,  value=1995)
 yr_renovated  = st.number_input("Tahun renovasi (0 jika belum)", min_value=0,   max_value=2015,  value=0)
 sqft_lot      = st.number_input("Luas tanah (sqft_lot)",         min_value=400, max_value=1100000, value=5000)
-zipcode       = st.number_input("Zipcode",                        min_value=98000,max_value=99999, value=98133)
+zipcode       = st.number_input("",                        min_value=98133,max_value=98133, value=98133)
 view          = st.number_input("View (0–4)",                     min_value=0,    max_value=4,     value=0)
 
 # 3. Susun ke DataFrame sesuai urutan fitur
